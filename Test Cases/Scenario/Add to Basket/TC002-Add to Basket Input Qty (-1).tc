@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002-Add to Basket Input Qty (-1)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ea995fb2-d437-42be-8e70-330b6afa403f</testCaseGuid>
+</TestCaseEntity>

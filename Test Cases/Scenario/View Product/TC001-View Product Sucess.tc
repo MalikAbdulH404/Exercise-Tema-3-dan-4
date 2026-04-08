@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001-View Product Sucess</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ecc7f4e9-aaa0-4d19-a5d8-d9a8fcee13ea</testCaseGuid>
+</TestCaseEntity>

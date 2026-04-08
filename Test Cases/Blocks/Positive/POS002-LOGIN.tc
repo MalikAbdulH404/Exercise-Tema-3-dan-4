@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>POS002-LOGIN</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>58021ef7-3638-4f03-a716-3cdc7f4d6cf4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d124d9d4-2835-4685-964c-49c0e908da2e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>237a7d9b-5335-4a6c-b95a-2ce60f2b8959</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'testing001@gmail.com'</defaultValue>
+      <description></description>
+      <id>d124d9d4-2835-4685-964c-49c0e908da2e</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bgd7citJOp/IS95AvpRAhA=='</defaultValue>
+      <description></description>
+      <id>237a7d9b-5335-4a6c-b95a-2ce60f2b8959</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

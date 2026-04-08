@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NEG007-CHECKOUT</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>983bf943-b924-49bd-b18c-bb7a70f336fb</testCaseGuid>
+</TestCaseEntity>

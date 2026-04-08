@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002-View Product Failed</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>88f57a54-c0e9-48e6-b223-cc2f155bdd0b</testCaseGuid>
+</TestCaseEntity>

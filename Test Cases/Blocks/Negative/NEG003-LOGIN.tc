@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NEG003-LOGIN</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cf121b83-c48a-472a-8394-2dd7a749f3b2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3f8768e7-3127-44bb-9a07-f6c8741ba5e9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'malikabdulh97@gmail.com\r\n'</defaultValue>
+      <description></description>
+      <id>3f8768e7-3127-44bb-9a07-f6c8741ba5e9</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

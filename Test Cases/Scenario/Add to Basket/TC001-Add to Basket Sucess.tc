@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001-Add to Basket Sucess</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aec51f32-d2c7-4c53-bd6a-ff6d09e3f047</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_basket</name>
+   <tag></tag>
+   <elementGuidId>2d2e1594-6333-4030-80f5-d81636a4e3bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='wpmenucartli']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.wpmenucart-contents.empty-wpmenucart-visible</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot; 0 items -₹0.00&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c14c11e1-bd20-4ba8-8739-d90669e99060</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wpmenucart-contents empty-wpmenucart-visible</value>
+      <webElementGuid>dc04f89e-c572-43ce-8387-679852aee3e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://practice.automationtesting.in/shop/</value>
+      <webElementGuid>1c991b4e-e497-4c89-b60e-6f90caf91a02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Start shopping</value>
+      <webElementGuid>b4f72a55-0d91-41a8-a5b4-da779862995d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>0 items₹0.00</value>
+      <webElementGuid>bc878c63-7235-4ebc-ae69-5a0faf32c99e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wpmenucartli&quot;)/a[@class=&quot;wpmenucart-contents empty-wpmenucart-visible&quot;]</value>
+      <webElementGuid>fbf57df1-be25-409a-baee-0e28bafe59d3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='wpmenucartli']/a</value>
+      <webElementGuid>a2203fbd-2270-4ab8-99d4-e72ccf1bb3d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Demo Site'])[1]/following::a[1]</value>
+      <webElementGuid>804e1095-6942-4869-9731-474580dd834c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AT Site'])[1]/following::a[2]</value>
+      <webElementGuid>44070303-6ffd-4d15-97d0-9e3e558639e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::a[3]</value>
+      <webElementGuid>acf39db6-8e0a-4813-aebe-2269d9ed1577</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://practice.automationtesting.in/shop/')])[2]</value>
+      <webElementGuid>abcd8dee-ed6a-454b-978e-9f9804064595</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/a</value>
+      <webElementGuid>d2e4a5d0-e03f-410d-8675-b5a2620b3382</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://practice.automationtesting.in/shop/' and @title = 'Start shopping' and (text() = '0 items₹0.00' or . = '0 items₹0.00')]</value>
+      <webElementGuid>73dda6d3-ee07-4ca8-90a0-4b9952b2b96d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

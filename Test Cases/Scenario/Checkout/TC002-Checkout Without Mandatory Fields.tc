@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002-Checkout Without Mandatory Fields</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4533ab38-defb-4c9a-ba35-705660f8c72a</testCaseGuid>
+</TestCaseEntity>

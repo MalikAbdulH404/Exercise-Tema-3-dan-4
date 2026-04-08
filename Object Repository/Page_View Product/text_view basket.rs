@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_view basket</name>
+   <tag></tag>
+   <elementGuidId>a42df2fe-1d16-4c0e-ab0b-17020c2d9a8c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.woocommerce-message</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;View Basket “HTML5 Forms” has been added to your basket.&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>94f90902-57f2-4545-a9ab-387ac3c11c51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>woocommerce-message</value>
+      <webElementGuid>7c9c0f9d-731e-4183-b96e-e7be214abec1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>View Basket “HTML5 Forms” has been added to your basket.</value>
+      <webElementGuid>b15c48a0-2e5b-406b-b9eb-b9c97d33b02d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;woocommerce-message&quot;]</value>
+      <webElementGuid>a1f7a419-5520-41d3-afd6-2d82d182629a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div</value>
+      <webElementGuid>604a7047-d569-4a9b-a984-6383c2274119</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='HTML'])[1]/following::div[1]</value>
+      <webElementGuid>97f4119c-b4c2-450e-8ec3-a943d39efe7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::div[1]</value>
+      <webElementGuid>40b7e447-3489-4229-8af1-3a3d283d563a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='HTML5 Forms'])[1]/preceding::div[2]</value>
+      <webElementGuid>39526f09-d7ca-4d45-a128-d3e1f489a3c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='“HTML5 Forms” has been added to your basket.']/parent::*</value>
+      <webElementGuid>3b015985-c63a-4e84-b81a-91ea25a3c400</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div</value>
+      <webElementGuid>5795b0cb-f044-4620-b735-27453d085edb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'View Basket “HTML5 Forms” has been added to your basket.' or . = 'View Basket “HTML5 Forms” has been added to your basket.')]</value>
+      <webElementGuid>dc1d7a76-a879-4988-ba4c-5a3f514707cd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

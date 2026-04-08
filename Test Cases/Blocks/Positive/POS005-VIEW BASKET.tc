@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>POS005-VIEW BASKET</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>98c436a1-88ad-48d8-b193-bab79e3396f7</testCaseGuid>
+</TestCaseEntity>
