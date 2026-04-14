@@ -21,7 +21,7 @@ WebUI.click(findTestObject('Page_Home/link_my account'))
 
 WebUI.setText(findTestObject('Page_My Account Login/text_input_username'), username)
 
-WebUI.setEncryptedText(findTestObject('Page_My Account Login/text_input_password'), password)
+WebUI.setText(findTestObject('Page_My Account Login/text_input_password'), password)
 
 WebUI.click(findTestObject('Page_My Account Login/button_login'))
 

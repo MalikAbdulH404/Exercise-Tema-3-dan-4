@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>POS001-REGISTER</name>
+   <name>TC001-Login Sucess</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>59f32d49-6801-4174-bbd3-8e249575f6c0</testCaseGuid>
+   <testCaseGuid>c8d3b2b3-b877-4e99-968d-0b8d2c061efc</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b775ac3e-2e66-4aef-8154-27a787ff1dfd</variableId>
+      <variableId>d124d9d4-2835-4685-964c-49c0e908da2e</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>e825aa50-17c8-4826-b520-5b43b2c09c1d</variableId>
+      <variableId>237a7d9b-5335-4a6c-b95a-2ce60f2b8959</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'testing666@gmail.com'</defaultValue>
+      <defaultValue>'testing001@gmail.com'</defaultValue>
       <description></description>
-      <id>b775ac3e-2e66-4aef-8154-27a787ff1dfd</id>
+      <id>d124d9d4-2835-4685-964c-49c0e908da2e</id>
       <masked>false</masked>
-      <name>email</name>
+      <name>username</name>
    </variable>
    <variable>
       <defaultValue>'Bgd7citJOp/IS95AvpRAhA=='</defaultValue>
       <description></description>
-      <id>e825aa50-17c8-4826-b520-5b43b2c09c1d</id>
+      <id>237a7d9b-5335-4a6c-b95a-2ce60f2b8959</id>
       <masked>false</masked>
       <name>password</name>
    </variable>

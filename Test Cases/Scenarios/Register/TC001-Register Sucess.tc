@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>POS001-REGISTER</name>
+   <name>TC001-Register Sucess</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>59f32d49-6801-4174-bbd3-8e249575f6c0</testCaseGuid>
+   <testCaseGuid>2e3049f2-a834-400b-b36f-09944d276fc6</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>

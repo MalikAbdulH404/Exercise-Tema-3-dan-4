@@ -17,15 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Page_Home/link_my account'))
+WebUI.callTestCase(findTestCase('Blocks/Reusable/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Page_My Account Register/text_input_email'), email)
+WebUI.callTestCase(findTestCase('Blocks/Positive/POS002-LOGIN'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Page_My Account Register/text_input_password'), password)
-
-WebUI.click(findTestObject('Page_My Account Register/button_register'))
-
-WebUI.verifyElementPresent(findTestObject('Page_Dashboard/text_hello'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Page_Dashboard/text_navigasi menu'), 0)
+WebUI.callTestCase(findTestCase('Blocks/Positive/POS006-CHECKOUT'), [('email') : 'testing001@gmail.com', ('phone') : '08124712642141'
+        , ('postcode') : '1241421'], FailureHandling.STOP_ON_FAILURE)
 

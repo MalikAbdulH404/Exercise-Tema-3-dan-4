@@ -17,14 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Page_Product/link_shop'))
-
-WebUI.click(findTestObject('Page_Product/text_judul produk'))
-
-WebUI.click(findTestObject('Page_View Product/button_add to basket'))
-
-WebUI.click(findTestObject('Page_View Basket/button_view basket'))
-
 WebUI.click(findTestObject('Page_Checkout/button_proceed to checkout'))
 
 WebUI.setText(findTestObject('Page_Checkout/text_input_billing_first_name'), 'test')
