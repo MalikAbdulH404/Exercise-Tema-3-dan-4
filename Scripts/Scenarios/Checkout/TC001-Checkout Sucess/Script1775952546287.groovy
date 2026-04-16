@@ -21,6 +21,10 @@ WebUI.callTestCase(findTestCase('Blocks/Reusable/Open Browser'), [:], FailureHan
 
 WebUI.callTestCase(findTestCase('Blocks/Positive/POS002-LOGIN'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Blocks/Positive/POS005-VIEW BASKET'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Blocks/Positive/POS006-CHECKOUT'), [('email') : 'testing001@gmail.com', ('phone') : '08124712642141'
         , ('postcode') : '1241421'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Blocks/Reusable/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 

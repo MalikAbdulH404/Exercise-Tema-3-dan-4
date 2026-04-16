@@ -10,78 +10,130 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d124d9d4-2835-4685-964c-49c0e908da2e</variableId>
+      <variableId>4ec7e3a3-bc31-4199-b1c7-b40be2d69c62</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>237a7d9b-5335-4a6c-b95a-2ce60f2b8959</variableId>
+      <variableId>1645eeba-b9be-4d89-bf90-c53c47b11c0a</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>77120802-88c3-4de2-912d-92b9292b70a2</variableId>
+      <variableId>1ead66e6-7f52-43e2-8600-b3aece64e374</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ddb91db9-b500-4052-8f2a-33aee9032353</variableId>
+      <variableId>2925db60-991b-4134-a751-815bfb74bdb5</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>81de2b94-4cb1-4972-82c0-127f01142522</variableId>
+      <variableId>d1a30f58-841a-4f04-8bc5-d8be55fe0da1</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>dc337f2c-fd54-4c5d-9514-6bb9b9179a94</variableId>
+      <variableId>e2034832-810b-4683-b222-ea8a26285030</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dcdbebd5-3e7e-4523-9b5f-6e0069f5af37</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>16ee41c1-01ef-4289-b480-4e044ddd15f4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a8f540ba-abbf-4801-861e-12526a52fbe9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e1b52276-e8a2-4338-913c-6d5b27fa1afa</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'testing001@gmail.com'</defaultValue>
+      <defaultValue>'1'</defaultValue>
       <description></description>
-      <id>d124d9d4-2835-4685-964c-49c0e908da2e</id>
+      <id>4ec7e3a3-bc31-4199-b1c7-b40be2d69c62</id>
       <masked>false</masked>
-      <name>username</name>
+      <name>qty</name>
    </variable>
    <variable>
-      <defaultValue>'@Secret*404'</defaultValue>
+      <defaultValue>'user'</defaultValue>
       <description></description>
-      <id>237a7d9b-5335-4a6c-b95a-2ce60f2b8959</id>
+      <id>1645eeba-b9be-4d89-bf90-c53c47b11c0a</id>
       <masked>false</masked>
-      <name>password</name>
+      <name>firstname</name>
    </variable>
    <variable>
-      <defaultValue>'testing001@gmail.com'</defaultValue>
+      <defaultValue>'test02'</defaultValue>
       <description></description>
-      <id>77120802-88c3-4de2-912d-92b9292b70a2</id>
+      <id>1ead66e6-7f52-43e2-8600-b3aece64e374</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>'PT.test02'</defaultValue>
+      <description></description>
+      <id>2925db60-991b-4134-a751-815bfb74bdb5</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>'user.test02@gmail.com'</defaultValue>
+      <description></description>
+      <id>d1a30f58-841a-4f04-8bc5-d8be55fe0da1</id>
       <masked>false</masked>
       <name>email</name>
    </variable>
    <variable>
-      <defaultValue>'08124712642141'</defaultValue>
+      <defaultValue>'81357296841'</defaultValue>
       <description></description>
-      <id>ddb91db9-b500-4052-8f2a-33aee9032353</id>
+      <id>e2034832-810b-4683-b222-ea8a26285030</id>
       <masked>false</masked>
       <name>phone</name>
    </variable>
    <variable>
-      <defaultValue>'1241421'</defaultValue>
+      <defaultValue>'Cibinong'</defaultValue>
       <description></description>
-      <id>81de2b94-4cb1-4972-82c0-127f01142522</id>
+      <id>dcdbebd5-3e7e-4523-9b5f-6e0069f5af37</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bogor'</defaultValue>
+      <description></description>
+      <id>16ee41c1-01ef-4289-b480-4e044ddd15f4</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+   <variable>
+      <defaultValue>'187465'</defaultValue>
+      <description></description>
+      <id>a8f540ba-abbf-4801-861e-12526a52fbe9</id>
       <masked>false</masked>
       <name>postcode</name>
    </variable>
    <variable>
-      <defaultValue>'2'</defaultValue>
+      <defaultValue>'Direct Bank Transfer\r\n'</defaultValue>
       <description></description>
-      <id>dc337f2c-fd54-4c5d-9514-6bb9b9179a94</id>
+      <id>e1b52276-e8a2-4338-913c-6d5b27fa1afa</id>
       <masked>false</masked>
-      <name>qty</name>
+      <name>payments</name>
    </variable>
 </TestCaseEntity>

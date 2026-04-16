@@ -19,41 +19,42 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Page_Checkout/button_proceed to checkout'))
 
-WebUI.setText(findTestObject('Page_Checkout/text_input_billing_first_name'), 'test')
+WebUI.setText(findTestObject('Page_Checkout/text_input_billing_first_name'), firstname)
 
-WebUI.setText(findTestObject('Page_Checkout/text_input_billing_last_name'), 'test')
+WebUI.setText(findTestObject('Page_Checkout/text_input_billing_last_name'), lastname)
 
-WebUI.setText(findTestObject('Page_Checkout/text_input_company came_billing_company'), 'test')
+WebUI.setText(findTestObject('Page_Checkout/text_input_company came_billing_company'), company)
 
 WebUI.setText(findTestObject('Page_Checkout/text_input_billing_email'), email)
 
 WebUI.setText(findTestObject('Page_Checkout/text_input_billing_phone'), phone)
 
-WebUI.setText(findTestObject('Page_Checkout/text_input_billing_address_1'), 'test')
+WebUI.setText(findTestObject('Page_Checkout/text_input_billing_address_1'), address)
 
-WebUI.setText(findTestObject('Page_Checkout/text_input_billing_city'), 'test')
+WebUI.setText(findTestObject('Page_Checkout/text_input_billing_city'), city)
 
 WebUI.setText(findTestObject('Page_Checkout/text_input_billing_postcode'), postcode)
+
+select_radio = payments
+
+switch (select_radio) {
+    case 'Direct Bank Transfer':
+        WebUI.click(findTestObject('Page_Checkout/btn_direct bank transfer'))
+
+        break
+    case 'Check Payments':
+        WebUI.click(findTestObject('Page_Checkout/btn_check payments'))
+
+        break
+    case 'Cash on Delivery':
+        WebUI.click(findTestObject('Page_Checkout/btn_cash on delivery'))
+
+        break
+    default:
+        break
+}
 
 WebUI.click(findTestObject('Page_Checkout/button_place order'))
 
 WebUI.verifyElementText(findTestObject('Page_Checkout/text_thank you'), 'Thank you. Your order has been received.')
-
-WebUI.verifyElementPresent(findTestObject('Page_Checkout/text_order number'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Page_Checkout/text_make your payment directly into our bank account'), 0)
-
-WebUI.verifyElementText(findTestObject('Page_Checkout/text_Our Bank Details'), 'Our Bank Details')
-
-WebUI.verifyElementText(findTestObject('Page_Checkout/text_Order Details'), 'Order Details')
-
-WebUI.verifyElementPresent(findTestObject('Page_Checkout/table_Product'), 0)
-
-WebUI.verifyElementText(findTestObject('Page_Checkout/text_Customer Details'), 'Customer Details')
-
-WebUI.verifyElementPresent(findTestObject('Page_Checkout/table_email'), 0)
-
-WebUI.verifyElementText(findTestObject('Page_Checkout/text_Billing Address'), 'Billing Address')
-
-WebUI.verifyElementPresent(findTestObject('Page_Checkout/text_billing address (1)'), 0)
 

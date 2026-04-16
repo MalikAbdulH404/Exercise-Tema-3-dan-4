@@ -17,31 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-int qtyValue = qty.toInteger()
+WebUI.callTestCase(findTestCase('Blocks/Reusable/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Product/link_shop'))
+WebUI.callTestCase(findTestCase('Blocks/Positive/POS002-LOGIN'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Product/button_add to basket'))
-
-WebUI.click(findTestObject('Page_Product/button_view basket'))
-
-if (qtyValue > 1) {
-    WebUI.setText(findTestObject('Page_View Basket/text_input_qty'), qty)
-
-    WebUI.click(findTestObject('Page_View Basket/input_Coupon_update_cart'))
-
-    WebUI.verifyElementPresent(findTestObject('Page_View Basket/SuccessUpdate'), 0)
-
-    WebUI.callTestCase(findTestCase('Blocks/Positive/POS006-CHECKOUT'), [('firstname') : firstname, ('lastname') : lastname
-            , ('company') : company, ('email') : email, ('phone') : phone, ('address') : address, ('city') : city, ('postcode') : postcode
-            , ('payments') : payments], FailureHandling.STOP_ON_FAILURE)
-} else {
-    WebUI.comment('Update button disabled → Go checkout')
-
-    WebUI.callTestCase(findTestCase('Blocks/Positive/POS006-CHECKOUT'), [('firstname') : firstname, ('lastname') : lastname
-            , ('company') : company, ('email') : email, ('phone') : phone, ('address') : address, ('city') : city, ('postcode') : postcode
-            , ('payments') : payments], FailureHandling.STOP_ON_FAILURE)
-}
+WebUI.callTestCase(findTestCase('Blocks/Reusable/Verify Update Basket or Proceed to Checkout Based on Cart Changes'), [('qty') : qty
+        , ('firstname') : firstname, ('lastname') : lastname, ('company') : company, ('email') : email, ('phone') : phone
+        , ('address') : address, ('city') : city, ('postcode') : postcode, ('payments') : payments], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Blocks/Reusable/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 

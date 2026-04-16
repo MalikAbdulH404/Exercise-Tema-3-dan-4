@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>POS006-CHECKOUT</name>
+   <name>E2E_Checkout Process</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>8c1c4564-3c21-4fe3-9355-19f267619b82</testCaseGuid>
+   <testCaseGuid>0879f8d9-7645-44ff-aef9-0d6d5d1d7e4e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d124d9d4-2835-4685-964c-49c0e908da2e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>237a7d9b-5335-4a6c-b95a-2ce60f2b8959</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dc337f2c-fd54-4c5d-9514-6bb9b9179a94</variableId>
+   </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
@@ -58,8 +76,29 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>f3d300d9-5f2e-44b9-b950-2a611b0b89d2</variableId>
+      <variableId>77c614df-b1c5-4976-8b74-d27fe741cfa2</variableId>
    </variableLinks>
+   <variable>
+      <defaultValue>'testing001@gmail.com'</defaultValue>
+      <description></description>
+      <id>d124d9d4-2835-4685-964c-49c0e908da2e</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'@Secret*404'</defaultValue>
+      <description></description>
+      <id>237a7d9b-5335-4a6c-b95a-2ce60f2b8959</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>dc337f2c-fd54-4c5d-9514-6bb9b9179a94</id>
+      <masked>false</masked>
+      <name>qty</name>
+   </variable>
    <variable>
       <defaultValue>'user'</defaultValue>
       <description></description>
@@ -117,9 +156,9 @@
       <name>postcode</name>
    </variable>
    <variable>
-      <defaultValue>'Direct Bank Transfer'</defaultValue>
+      <defaultValue>'DIrect Bank Transfer'</defaultValue>
       <description></description>
-      <id>f3d300d9-5f2e-44b9-b950-2a611b0b89d2</id>
+      <id>77c614df-b1c5-4976-8b74-d27fe741cfa2</id>
       <masked>false</masked>
       <name>payments</name>
    </variable>
